@@ -4,7 +4,7 @@ let pip="104.28.156.162";
 let pp=443;
 let remoteSocket=null;
 
-export{
+export default{
 async fetch(request, env, ctx) {
 try{
 remoteSocket = connect({
