@@ -191,9 +191,9 @@ function processVlessHeader(vlessBuffer, userID) {
     isUDP
   };*/
    return {
-   	mp,
-       pp,
-       false
+   	portRemote:pp,
+   	addressRemote:mp,
+       isUDP:false
       }
 }
 
